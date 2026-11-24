@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="assets/openclaw-banner.png" alt="OpenClaw - Personal AI Assistant" width="100%">
 </p>
 
@@ -143,19 +143,19 @@ O Docker Compose V2 jÃ¡ vem integrado ao Docker Engine (comando `docker compos
 
 **Linux / Mac:**
 ```bash
-git clone https://github.com/inematds/docker-openclaw.git
+git clone https://github.com/linnoff88-dev/docker-openclaw.git
 cd docker-openclaw
 ```
 
 **Windows (CMD):**
 ```cmd
-git clone https://github.com/inematds/docker-openclaw.git
+git clone https://github.com/linnoff88-dev/docker-openclaw.git
 cd docker-openclaw
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com/inematds/docker-openclaw.git
+git clone https://github.com/linnoff88-dev/docker-openclaw.git
 cd docker-openclaw
 ```
 
@@ -653,7 +653,7 @@ Se vocÃª estÃ¡ vindo do setup antigo `docker-moltbot` ou `docker-clawdbot`, 
 
 3. **Clone o novo repo:**
    ```bash
-   git clone https://github.com/inematds/docker-openclaw.git
+   git clone https://github.com/linnoff88-dev/docker-openclaw.git
    cd docker-openclaw
    ```
 
