@@ -1,8 +1,8 @@
-# 🚀 Guia de Configuração OpenRouter
+# 🚀 Guia de Configuraçêo OpenRouter
 
-Este guia documenta a configuração **CORRETA** para usar o OpenClaw com OpenRouter.
+Este guia documenta a configuraçêo **CORRETA** para usar o OpenClaw com OpenRouter.
 
-## ✅ Configuração que FUNCIONA
+## ✅ Configuraçêo que FUNCIONA
 
 ### 1. Arquivo `.env`
 
@@ -44,7 +44,7 @@ http://localhost:18789/chat?token=seu-gateway-auth-token
 
 ## 📝 Formato do Modelo - MUITO IMPORTANTE!
 
-### ❌ Formatos INCORRETOS que NÃO funcionam:
+### ❌ Formatos INCORRETOS que NêO funcionam:
 
 ```bash
 # SEM o prefixo openrouter/
@@ -60,14 +60,14 @@ DEFAULT_MODEL=openrouter/anthropic/claude-sonnet-4-5
 DEFAULT_MODEL=openrouter/anthropic/claude-sonnet-4.5
 ```
 
-**Padrão:** `openrouter/<provider>/<model>`
+**Padrêo:** `openrouter/<provider>/<model>`
 
 ## 🎯 Modelos Disponíveis via OpenRouter
 
 ### Claude (Anthropic)
 - `openrouter/anthropic/claude-opus-4-5` - Mais poderoso
 - `openrouter/anthropic/claude-sonnet-4.5` - Melhor custo-benefício (recomendado)
-- `openrouter/anthropic/claude-3.5-sonnet` - Versão anterior
+- `openrouter/anthropic/claude-3.5-sonnet` - Versêo anterior
 - `openrouter/anthropic/claude-3.5-haiku` - Mais rápido
 
 ### GPT (OpenAI)
@@ -91,7 +91,7 @@ DEFAULT_MODEL=openrouter/anthropic/claude-sonnet-4.5
 
 **Causa:** Falta o prefixo `openrouter/`
 
-**Solução:**
+**Soluçêo:**
 ```bash
 # Errado
 DEFAULT_MODEL=anthropic/claude-sonnet-4.5
@@ -100,7 +100,7 @@ DEFAULT_MODEL=anthropic/claude-sonnet-4.5
 DEFAULT_MODEL=openrouter/anthropic/claude-sonnet-4.5
 ```
 
-### Container não inicia
+### Container nêo inicia
 
 ```bash
 # Limpar tudo e rebuildar
@@ -138,14 +138,14 @@ Envie "olá" pelo webchat e verifique os logs:
 docker compose logs --tail 20 --follow
 ```
 
-## 📚 Documentação Oficial
+## 📚 Documentaçêo Oficial
 
 - **OpenClaw:** https://docs.openclaw.ai
 - **OpenRouter:** https://openrouter.ai/works-with-openrouter
 - **Modelos:** https://openrouter.ai/models
 - **API Keys:** https://openrouter.ai/settings/keys
 
-## ⚙️ Configuração Avançada
+## ⚙️ Configuraçêo Avançada
 
 ### Trocar de modelo
 
